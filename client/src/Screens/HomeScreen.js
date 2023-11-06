@@ -1,8 +1,8 @@
 import React from 'react'
 
- const HomeScreen = () => {
+ const HomeScreen = ({user}) => {
   return (
-    <div>HomeScreens</div>
+    <div>{user?.email}</div>
   )
 }
 
